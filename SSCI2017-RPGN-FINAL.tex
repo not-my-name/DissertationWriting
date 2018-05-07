@@ -54,6 +54,135 @@ controllers evolved specifically for the varied morphology.
 
 \section{Introduction}
 
+This is the new introduction.
+This is the latest paret for the actual dissertation writing.
+
+The dissertation skeleton is going to be based off of the previous conference papers that you have written.
+
+Below I am keeping the content for the SSCI/AAMAS conference for the sake of future reference.
+
+this is what is going to be used for the outline of the paper  itself
+
+
+===========================================================================================================================================================
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+INTRODUCTION FROM THE LITERATURE REVIEW
+
+Evolutionary computing (EC) is a branch of computer science research inspired by the Darwinian process of evolution through natural selection\cite{RefWorks:33}. Given the complexity and non-linearity of real world problems, traditional controller design is impractical since they rely on linear mathematical models \cite{RefWorks:32}, making it unsurprising that computer scientists have turned to natural processes for inspiration. The problem solving power of evolution is abundantly clear in nature with the diverse range of organisms on Earth, each specially designed for optimal survival in its own niche environment \cite{RefWorks:33}.
+
+Although Reinforcement Learning (RL) techniques can theoretically solve a number of problems without examples of correct behaviour, in practice they scale poorly with problems that have large state spaces or non-Markov tasks, which are tasks where the state of the environment is only partially observable \cite{RefWorks:32}.
+
+Neuroevolution (NE) is a method of artificially evolving Artificial Neural Networks (ANNs) by implementing Evolutionary Algorithms (EAs) to perform tasks such as training the connection weights and designing the network topology\cite{RefWorks:31,RefWorks:1}. 
+
+By evolving a population of ANNs, NE searches through the space of possible controllers by evaluating each candidate solution using a fitness function and selecting the most successful individuals for reproduction, a process analogous to natural selection \cite{RefWorks:32,gomez2001neuro}. 
+
+The different NE methods can be roughly split into two categories according to their encoding method, either direct or indirect. In direct encoding methods, each element in the genotype explicitly encodes an independent aspect of the phenotype, such that there is a one-to-one mapping between the genotype and the phenotype. In indirect (also called generative or developmental) encoding methods, each element in the genotype is implicitly described by a computable function allowing for a much more compact representation of the genotype. It also allows for genetic information to be reused \cite{clune2011performance,Stanley2003}.
+
+The high level of complexity inherent in real life tasks tend to result in deceptive fitness landscapes \cite{RefWorks:11}. These are fitness landscapes of multimodal problems that have numerous local optima \cite{RefWorks:33}. In multimodal problems, it is possible for the NE search to get stuck around a local optima and lead to the NE method prematurely converging to a suboptimal solution \cite{RefWorks:11}.
+
+For this reason, various NE search functions (also referred to as fitness functions) are investigated. The first search function being the objective search which simply evaluates the suitability of a solution by using an objective fitness function \cite{lehman2011abandoning}.
+Novelty search is an approach that provides candidate solutions with a reward based how different their behaviour is from other candidate solutions \cite{RefWorks:11}. The third approach is a hybrid search which attempts to combine EAs with a local search \cite{Castillo2007}.
+
+The collective construction task requires that a team of agents cooperate by coordinating their behaviours in order to assemble various structures within their environment \cite{RefWorks:15}.
+
+The collective gathering task requires a team of agents to coordinate sub-tasks amongst themselves in order to produce a collective behaviour that maximises the resources gathered \cite{RefWorks:15}.
+
+It has been shown that NE can successfully be applied to complex control tasks that require collective behaviour. These control tasks have no obvious mapping between the input from sensory configurations and motor outputs \cite{RefWorks:15}.
+
+The ability to automate construction tasks through evolving ANN controllers for multi-robot teams using EAs presents several considerable benefits. Automation such as this could be used to assist in projects such as producing low-cost housing and reduce high accident rates due to human error that accompany traditional construction methods \cite{Khoshnevis2003}. It would be useful to send multi-robot construction teams to extraterrestrial planets in order to build habitable structures in anticipation of humans arriving. These robot teams would also be useful in underwater construction which is difficult and often extremely dangerous \cite{RefWorks:30}.
+
+This literature review is therefore focussed on investigating the effectiveness of various NE methods in solving collective behaviour tasks, with specific emphasis on the indirect encoding method called HyperNEAT \cite{stanley2009hypercube}, as well as the aforementioned search functions.
+
+
+Another reason for using HyperNEAT is its success in evolving team (collective) behaviours for various multi-agent tasks including RoboCup soccer and pursuit evasion \cite{hausknecht2012hyperneat}.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=======================================================================================================================================================================================
+
+
+
+
+
+
+
+
+
+\section{Literature Review}
+
+For the sake of title ambiguity
+
+this is where you will have the different sections regardin the bacjground reading
+
+\subsection{ANN}
+
+There is a lot of content in the honours literature review and the final paper that can be hacked up and brought into here
+
+=======================================================================================================================================================================================
+The below section is verbatim from the honours literature review
+
+Artificial Neural Networks (ANN's) are a simplified model of how a biological brain functions\cite{mcculloch1943logical}. It consists of numerous simple computational units, called neurons, that are interconnected and ordered into layers to create a neural net\cite{RefWorks:31}. Each neuron has several inputs, some activation function and a single output. An ANN receives input from the environment at its input layer \cite{RefWorks:32}.
+
+Each neuron in a non-input layer then calculates the weight- ed sum of its inputs, referred to as the activation value \cite{yegnanarayana2009artificial,RefWorks:31}, and evaluates it according to some activation function. If this result exceeds a predetermined threshold value, the neuron will "fire" an output signal, transmitting it as an input to the subsequent neuron across a weighted connection \cite{yegnanarayana2009artificial}.
+
+ANNs are universal function approximators. It has been shown that a network can approximate any continuous function to any desired accuracy \cite{zhang1998forecasting}. This makes ANNs a favourable choice for agent controllers in accomplishing various tasks \cite{yegnanarayana2009artificial}.
+
+In cases where training examples are available, the connection weights in ANNs are adapted using various supervised learning techniques, and in cases without such examples the weights are evolved using EAs \cite{dayhoff2001artificial,RefWorks:1}.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================================================================================================================================================================
+
+
+
+
+\subsection{NeuroEvolution}
+
+=========================================================================================================================================================================================
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+FROM THE LITERATURE REVIEW VERBATIM
+
+
+Neuroevolution (NE) provides a way of combining EAs and ANNs \cite{RefWorks:31}. It uses EAs to evolve the connection weights, topologies and activation functions of ANNs in order to learn a specific task or behaviour \cite{gomez1999solving}. NE searches for an ANN with optimal performance based on a fitness function that determines an ANN's suitability to performing a task \cite{RefWorks:31}.
+
+Using NE to evolve ANNs addresses several weaknesses that occur in reinforcement or supervised learning techniques. Reinforcement learning (RL) requires a value function which is costly to compute whereas NE removes the need of such a function by directly searching the policy space using a EA \cite{RefWorks:32}. 
+
+By searching through a population of solutions and evaluating several candidate solutions at a time, EAs are much less likely to get stuck in local minima than gradient-descent algorithms and therefore makes NE suitable for dealing with complex problems that generate numerous local optima \cite{gomez2001neuro,RefWorks:1}.
+
+In a standard RL scenario an ANN interacts with its environment in discrete time steps \cite{igel2003neuroevolution}. NE can be used in any type of environment, whether it is continuous or partially observable, making it possible to find an optimal ANN using only information about how well the network is performing rather than what it is supposed to be doing \cite{Miikkulainen:2010:ENN:1830761.1830902}. 
+
+Another challenge in using traditional learning methods or fixed-topology NE approaches, is that it requires a human to design the topology for the neural net. This presents a problem since these networks can get complex and would have to be altered according to the specific task being learned. This relation between topology and suitability is very unintuitive and difficult to get right without trial-and-error. By using a NE approach that evolves the topology and the weights of a neural network (TWEANNs), these networks are able to discover the most efficient topology \cite{RefWorks:31}.
+
+Since the chromosomes in NE can be used to encode any aspect of ANNs and the choice of encoding affects the search space, deciding on an encoding method is fundamental aspect in the design of the system \cite{RefWorks:31}. This literature review compares direct and indirect encoding, which will be discussed in depth at a later stage in the Encoding Schemes.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=====================================================================================================================================================================================
+
+
+\subsection{HyperNEAT}
+
+\section{Methods}
+
+remember to use this section to outline the "tools" that you used in order to conduct these experiments.
+
+\subsection{Robot Team Controller}
+this is where you mention the ANN 
+Homogeneous robot team controller where each single network is used to control a team of individual robots
+
+\subsection{Simulator}
+
+2-dimensional continuous environment
+
+mention the discretised grid (unless you decide to take it out, in which case you will have to actually do it)
+
+the redbridge simulator that was written in java
+
+\subsection{Machine Learning Library}
+
+For these experiments, we used the Encog Machine Learning framework (find the damn reference to the Encog website)        
+
+
+\section{Introduction}
+
 An open problem in \textit{collective} \cite{KubeZhang1994B} and \textit{swarm robotics} \cite{Beni2004}
 is ascertaining appropriate sensory-motor configurations
 (morphologies) for robots comprising teams that must work
@@ -145,7 +274,7 @@ must operate in dynamic, noisy and hazardous environments.
 
 HyperNEAT \cite{StanleyDAmbrosioGauci2009} is an extension of NEAT (\textit{Neuro-Evolution of Augmented Topologies})
 \cite{StanleyMiikkulainen2002}, where ANNs are indirectly encoded using a CPPN (\textit{Compositional Pattern Producing Network})
-\cite{Stanley2007}.
+\cite{Stanley2007}
 HyperNEAT was selected as it has a number of benefits demonstrated in previous work \cite{DAmbrosio2013},
 \cite{WatsonNitschke2015SSCI}.
 This includes its capability to exploit geometric features such as symmetry, regularity and modularity
