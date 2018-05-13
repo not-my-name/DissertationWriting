@@ -88,7 +88,7 @@ The collective construction task requires that a team of agents cooperate by coo
 
 The collective gathering task requires a team of agents to coordinate sub-tasks amongst themselves in order to produce a collective behaviour that maximises the resources gathered \cite{RefWorks:15}.
 
-It has been shown that NE can successfully be applied to complex control tasks that require collective behaviour. These control tasks have no obvious mapping between the input from sensory configurations and motor outputs \cite{RefWorks:15}.
+It has been shown that NE can successfully be applied to complex control tasks that require collective behaviour. These control tasks have no obvious mapping between the input from sensory configurations and motor outputs \cite{RefWorks:15}
 
 The ability to automate construction tasks through evolving ANN controllers for multi-robot teams using EAs presents several considerable benefits. Automation such as this could be used to assist in projects such as producing low-cost housing and reduce high accident rates due to human error that accompany traditional construction methods \cite{Khoshnevis2003}. It would be useful to send multi-robot construction teams to extraterrestrial planets in order to build habitable structures in anticipation of humans arriving. These robot teams would also be useful in underwater construction which is difficult and often extremely dangerous \cite{RefWorks:30}.
 
@@ -99,11 +99,6 @@ Another reason for using HyperNEAT is its success in evolving team (collective) 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 =======================================================================================================================================================================================
-
-
-
-
-
 
 
 
@@ -134,7 +129,6 @@ In cases where training examples are available, the connection weights in ANNs a
 
 
 
-
 \subsection{NeuroEvolution}
 
 =========================================================================================================================================================================================
@@ -157,8 +151,51 @@ Since the chromosomes in NE can be used to encode any aspect of ANNs and the cho
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 =====================================================================================================================================================================================
 
+The below is from the paper Neuroevolution by Risto Miikulainen
+
+Neuroevolution is a method for modifying neural network weights, topologies, or ensembles in order to learn a specific task.
+Evolutionary computation is used to search for network parameters that meximize a fitness function that measures performance in the task [define: fitness function].
+
+It can also be combined with standard neural network learning to model biological adaptation. (this is like the learning algorithms per generation and then the survival of the fittest as determined by the fitness function)
+(the biological daptation is referring to the process of evolution through natural selection over hundreds of generations.)
+\hl{maybe find an example of what this means? how does one combine NE with standard neural network learning algorithms?}
+Neuroevolution can also be seen as a policy search method for reinforcement learning problems, where it is well suited to continuous domains and to domains where the state is only partially observable
+(look up what the policy has to do with reinforcement learning. seem to recall it was the steps to take for a solution or something like that. look in the reinforcement learning papers)
+(this is a good comparison or relation to link Neuroevolution and reinforcement learning, maybe include a whole section for reinforcement learning by itself as part of the literature review. this can help support a metaphor for natural processes, always good to have as mach background information as possible. just make sure to not go overboard and start including irrelevant stuff)
+
+The main benefit of Neuroevolution compared  to other Reinforcement Learning methods in such tasks is that it allows representing continuous state and action spaces and disambiguating hidden states naturally.
+Network activations are continuous, and the network generalizes well between continuous values, largely avoiding the state explosion problem that plagues many reinforcement learning approaches.
+(look up what the state explosion problem is that plagues the RL approaches)
+
+Recurrent networks can encode memories of past statess and actions, making it possible to learn in Partially Observable Markov Decision Process (POMDP) environments that are difficult for many RL approaches.
+(Look up what the POMDP environment is again)
+(Also, im not sure about that thing about encoding memories considering none of the networks even had a hidden layer. will need to check if any of the networks are actually recurrent)
+
+Compared to other neural network learning methods, neuroevolution is highly general. As lon as the general performance of the networks can be evaluated over time, and the behaviour of the network can be modified through evolution, it can be applied to a wide range of network architectures, including those with non-differentiable activation functions and recurrent and higher-oorder connections.
+(from this paragraph above, look up some examples of non-differentiable functions)
+
+While most neural learning algorithms focus on modifying the weights only, neuroevolution can be used to optimize other aspects of the networks as well, including the activation functions and network topologies.
+(This is probably not the best thiing to include considering you don't modify the activation functions or anything like that.)
+
+
+======================================================================================================
+
+\subsection{Reinforcement Learning}
+
+This is going to be the section where you give some more information of how RL relates to NE, give some examples. draw a line to natural processes 
+
 
 \subsection{HyperNEAT}
+
+\subsection{Fitness Funcitons}
+
+=======================================================================================================
+THe outtake belowis also from the Riisto Miikulainen paper 2010
+
+Compared to other neural network learning methods, neuroevolution is highly general, allowing learning without explicit targets, with nondifferentiable activation functions and with recurrent networks.
+
+===============================================================================================
+
 
 \section{Methods}
 
