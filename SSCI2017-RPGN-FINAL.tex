@@ -215,7 +215,28 @@ the redbridge simulator that was written in java
 
 \subsection{Machine Learning Library}
 
-For these experiments, we used the Encog Machine Learning framework (find the damn reference to the Encog website)        
+For these experiments, we used the Encog Machine Learning framework (find the damn reference to the Encog website)     
+
+\section{Research Question}
+
+"which neuroevolution algorithm is able to produce the most robust ANN controller with regards to its ability to complete the collective construction task while varying the morphology (type of and configuration) of its input sensor?"
+
+We evolve a controller with a fixed sensory configuration and use that to establish a base line performance. We then create several different sensory configurations that are a subset of the original sensor collections
+
+There we different evaluations for the different experiments:
+-> In the SSCI experiments (I think?), we implemented a sort of filter that would randomly block input from some of the sensors that the robot is originally configured with. This was to try and simulate some of the robot's sensors becoming disabled while performing the task. In this case, we would change which sensors have been deactivated between each evaluation run so that the controller had to perform the task with a different subset of its sensors each time (essentially a different sensory input configuration with each evaluation run)
+-> For the other experiments, we chose a fixed set of morphologies. Each controller was evolved using a particular sensory configuration. We then established a baseline performance by performing a couple of evaluation runs in the simulator where the controller uses its original morphology. In order to determine the robustness of the controller, we would perform the evaluation stage for each controller where it would be implemented in the simulator with one of the other sensory configurations. This is repeated for each morphology per controller. We then calculate the average performance of the controller across all its evaluation runs with foreign morphologies and compare it to its baseline performance. If there is a difference in the values, we can conclude that the controller is or isn't robust. 
+
+We are evaluating the ability of a controller to be able to complete the desired task while changing the sensory input configurations. 
+
+This will also help us determine whether or not an evolved ANN controller is transferrable between robot bodies. In other words, once a controller has been trained to accomplish a certain task, will this controller be able to still complete its task after being transferred into another "body"
+Can you train controllers on a 'per task' basis only, and then just place it in any robot body. Or is an ANN controller's ability to accomplish a task dependent on the morphology that it was evolved with.
+
+\section{Future Work}
+Maybe implement a more accurate abstraction of the sensors
+Implement other types of variations in the sensors (like partial degradation instead of on/off)
+More representations of the collective construction task instead of just connecting blocks, maybe have more complex connection rules.
+
 
 
 \section{Introduction}
@@ -239,7 +260,7 @@ robust behaviors such that robot teams effectively adapt to the loss of sensors 
 without significant degradation of collective task performance, that is, \textit{morphologically robust behavior}.
 
 This study contributes to an open problem in evolutionary robotics, that is to evolve
-robot controllers that can continue to appropriately function given unforseen morphological change
+robot controllers that can continue to appropriately function given unforeseen morphological change
 to the robot such as sensor damage or malfunction \cite{BongardZykovLipson2006},
 \cite{CullyCluneTaraporeMouret2015}.  Such robust controller evolution would yield significant advantages
 in applications where robust autonomous behavior is continually required \cite{BrooksFlynn1989}.
