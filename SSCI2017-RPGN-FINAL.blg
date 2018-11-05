@@ -17,6 +17,10 @@ You're missing a field name---line 475 of file EvoComp.bib
  : %  address = "Cambridge",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Repeated entry---line 1509 of file EvoComp.bib
+ : @inproceedings{WatsonNitschke2015CEC
+ :                                     ,
+I'm skipping whatever remains of this entry
 You're missing a field name---line 2261 of file EvoComp.bib
  : 
  : % pages = "",
@@ -37,6 +41,10 @@ I was expecting a `,' or a `}'---line 4005 of file EvoComp.bib
  :     year = "2004",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Repeated entry---line 6159 of file EvoComp.bib
+ : @book{EibenSmith2003
+ :                     ,
+I'm skipping whatever remains of this entry
 You're missing a field name---line 8241 of file EvoComp.bib
  : 
  : %  address = "Berlin, Germany",
@@ -51,50 +59,57 @@ Repeated entry---line 9739 of file EvoComp.bib
  : @article{StanleyMiikkulainen2002
  :                                 ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Castillo2007"
+Warning--I didn't find a database entry for "Khoshnevis2003"
+Warning--I didn't find a database entry for "Stanley2003"
+Warning--I didn't find a database entry for "RefWorks15"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in RefWorks:32
+Warning--empty journal in RefWorks:33
+Warning--empty journal in RefWorks:31
 
 Done.
-You've used 39 entries,
+You've used 63 entries,
             4039 wiz_defined-function locations,
-            1084 strings with 14492 characters,
-and the built_in function-call counts, 33305 in all, are:
-= -- 2790
-> -- 676
-< -- 322
-+ -- 378
-- -- 96
-* -- 1538
-:= -- 4752
-add.period$ -- 93
-call.type$ -- 39
-change.case$ -- 40
-chr.to.int$ -- 765
-cite$ -- 39
-duplicate$ -- 2400
-empty$ -- 2699
-format.name$ -- 133
-if$ -- 7829
+            1234 strings with 18803 characters,
+and the built_in function-call counts, 53245 in all, are:
+= -- 4423
+> -- 1096
+< -- 526
++ -- 621
+- -- 155
+* -- 2485
+:= -- 7626
+add.period$ -- 149
+call.type$ -- 63
+change.case$ -- 64
+chr.to.int$ -- 1257
+cite$ -- 66
+duplicate$ -- 3795
+empty$ -- 4326
+format.name$ -- 212
+if$ -- 12484
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 360
-newline$ -- 140
-num.names$ -- 43
-pop$ -- 820
+int.to.str$ -- 63
+missing$ -- 579
+newline$ -- 216
+num.names$ -- 69
+pop$ -- 1315
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2636
+skip$ -- 4196
 stack$ -- 0
-substring$ -- 1918
-swap$ -- 2030
-text.length$ -- 67
+substring$ -- 3088
+swap$ -- 3214
+text.length$ -- 107
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 39
-warning$ -- 0
-while$ -- 175
-width$ -- 41
-write$ -- 400
-(There were 9 error messages)
+type$ -- 63
+warning$ -- 3
+while$ -- 276
+width$ -- 65
+write$ -- 635
+(There were 11 error messages)

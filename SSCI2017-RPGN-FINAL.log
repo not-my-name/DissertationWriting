@@ -1,9 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.4)  4 OCT 2018 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.3.8)  22 OCT 2018 16:54
 entering extended mode
-**./SSCI2017-RPGN-FINAL.tex
-(SSCI2017-RPGN-FINAL.tex
-LaTeX2e <2018-04-01> patch level 5
-(IEEEtran.cls
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**SSCI2017-RPGN-FINAL.tex
+(./SSCI2017-RPGN-FINAL.tex
+LaTeX2e <2017/01/01> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(./IEEEtran.cls
 Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Chr
 istensen
 -- Based on V1.7a by Michael Shell
@@ -11,14 +14,12 @@ istensen
 -- http://www.michaelshell.org/tex/ieeetran/
 \@IEEEtrantmpdimenA=\dimen102
 \@IEEEtrantmpdimenB=\dimen103
-\@IEEEtrantmpcountA=\count80
-\@IEEEtrantmpcountB=\count81
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 373.
 
-
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.f
-d"
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -77,86 +78,79 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEiednormlabelsep=\dimen114
 \IEEEiedmathlabelsep=\dimen115
 \IEEEiedtopsep=\skip41
-\c@section=\count82
-\c@subsection=\count83
-\c@subsubsection=\count84
-\c@paragraph=\count85
-\c@IEEEsubequation=\count86
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@IEEEsubequation=\count85
 \abovecaptionskip=\skip42
 \belowcaptionskip=\skip43
-\c@figure=\count87
-\c@table=\count88
-\@IEEEeqnnumcols=\count89
-\@IEEEeqncolcnt=\count90
+\c@figure=\count86
+\c@table=\count87
+\@IEEEeqnnumcols=\count88
+\@IEEEeqncolcnt=\count89
 \@IEEEtmpitemindent=\dimen116
-\c@IEEEbiography=\count91
+\c@IEEEbiography=\count90
 \@IEEEtranrubishbin=\box26
-)
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
-cx.sty"
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval
-.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
-cs.sty"
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.s
-ty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gr
-aphics.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pd
-ftex.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
 ))
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\times.st
-y"
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
-) (psfig.sty
+) (./psfig.sty
 \@unused=\write3
 \ps@stream=\read1
 \p@intvaluex=\dimen119
 \p@intvaluey=\dimen120
 
 psfig/tex 1.10-dvips
-)
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath
-.sty"
-Package: amsmath 2017/09/02 v2.17a AMS math features
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext
-.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.
-sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen121
 ))
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.
-sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen122
 )
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.
-sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count92
@@ -197,27 +191,24 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(multirow.sty
+) (./multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip47
 \multirow@cntb=\count104
 \multirow@dima=\skip48
 \bigstrutjot=\dimen130
 )
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.
-sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\co
-lor.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
-) (soul.sty
+) (./soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks21
 \SOUL@lasttoken=\toks22
@@ -228,7 +219,8 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@ttwidth=\dimen131
 \SOUL@uldp=\dimen132
 \SOUL@ulht=\dimen133
-) (SSCI2017-RPGN-FINAL.aux)
+)
+(./SSCI2017-RPGN-FINAL.aux)
 \openout1 = `SSCI2017-RPGN-FINAL.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -244,8 +236,7 @@ LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
-.mkii"
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count105
 \scratchdimen=\dimen134
@@ -258,390 +249,111 @@ LaTeX Font Info:    ... okay on input line 11.
 \MPnumerator=\count109
 \makeMPintoPDFobject=\count110
 \everyMPtoPDFconversion=\toks27
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstop
-df-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infw
-arerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext
-.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvde
-finekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxc
-mds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopti
-ons.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvse
-tkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etex
-cmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\iflu
-atex.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdft
-excmds.sty"
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("C:\Users\pandries\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpd
-f.sty"
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Underfull \hbox (badness 2662) in paragraph at lines 29--51
 []\OT1/ptm/b/it/9 Abstract\OT1/ptm/b/n/9 ---This study eval-u-ates a \OT1/ptm/b
 /it/9 Neuro-Evolution \OT1/ptm/b/n/9 (NE)
  []
 
 
-Overfull \hbox (635.58348pt too wide) in paragraph at lines 67--69
-[]\OT1/ptm/m/n/10 =============================================================
-===============================================================================
-===============
+LaTeX Warning: Citation `Castillo2007' on page 1 undefined on input line 72.
+
+
+LaTeX Warning: Citation `Khoshnevis2003' on page 1 undefined on input line 74.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+] [2] [3]
+
+LaTeX Warning: Citation `Stanley2003' on page 4 undefined on input line 264.
+
+[4]
+Underfull \hbox (badness 1796) in paragraph at lines 328--339
+[]\OT1/ptm/m/n/10 HyperNEAT [[]] is an ex-ten-sion of NEAT (\OT1/ptm/m/it/10 Ne
+uro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
-\OT1/ptm/m/n/10 ---------------------------------------------------------------
-------------
+LaTeX Warning: Citation `RefWorks15' on page 5 undefined on input line 373.
+
+[5]
+Underfull \hbox (badness 3635) in paragraph at lines 450--450
+[][][]\OT1/ptm/m/n/8 Source code for all ex-per-i-ments is on-line at: $https :
+ / / github . com /
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
-\OT1/ptm/m/n/10 ---------------------------------------------------------------
-------------
+[6]
+Underfull \hbox (badness 2326) in paragraph at lines 531--538
+[]\OT1/ptm/m/n/10 Parameter tun-ing ex-per-i-ments found that set-ting the
  []
 
-
-LaTeX Warning: Citation `RefWorks:33' on page 1 undefined on input line 72.
-
-
-LaTeX Warning: Citation `RefWorks:32' on page 1 undefined on input line 72.
-
-
-LaTeX Warning: Citation `RefWorks:33' on page 1 undefined on input line 72.
-
-
-LaTeX Warning: Citation `RefWorks:32' on page 1 undefined on input line 74.
-
-
-LaTeX Warning: Citation `RefWorks:31' on page 1 undefined on input line 76.
-
-
-LaTeX Warning: Citation `RefWorks:1' on page 1 undefined on input line 76.
-
-
-LaTeX Warning: Citation `RefWorks:32' on page 1 undefined on input line 78.
-
-
-LaTeX Warning: Citation `gomez2001neuro' on page 1 undefined on input line 78.
-
-
-LaTeX Warning: Citation `clune2011performance' on page 1 undefined on input lin
-e 80.
-
-
-LaTeX Warning: Citation `Stanley2003' on page 1 undefined on input line 80.
-
-
-LaTeX Warning: Citation `RefWorks:11' on page 1 undefined on input line 82.
-
-
-LaTeX Warning: Citation `RefWorks:33' on page 1 undefined on input line 82.
-
-
-LaTeX Warning: Citation `RefWorks:11' on page 1 undefined on input line 82.
-
-
-LaTeX Warning: Citation `lehman2011abandoning' on page 1 undefined on input lin
-e 84.
-
-
-LaTeX Warning: Citation `RefWorks:11' on page 1 undefined on input line 85.
-
-
-LaTeX Warning: Citation `Castillo2007' on page 1 undefined on input line 85.
-
-[1{C:/Users/pandries/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-]
-
-LaTeX Warning: Citation `RefWorks:15' on page 2 undefined on input line 87.
-
-
-LaTeX Warning: Citation `RefWorks:15' on page 2 undefined on input line 89.
-
-
-LaTeX Warning: Citation `RefWorks:15' on page 2 undefined on input line 91.
-
-
-LaTeX Warning: Citation `Khoshnevis2003' on page 2 undefined on input line 93.
-
-
-LaTeX Warning: Citation `RefWorks:30' on page 2 undefined on input line 93.
-
-
-LaTeX Warning: Citation `stanley2009hypercube' on page 2 undefined on input lin
-e 95.
-
-
-LaTeX Warning: Citation `hausknecht2012hyperneat' on page 2 undefined on input 
-line 98.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
-[]\OT1/ptm/m/n/10 ---------------------------------------------------------
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
-\OT1/ptm/m/n/10 ---------------------------------------------------------------
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
-\OT1/ptm/m/n/10 ---------------------------------------------------------------
-
- []
-
-
-Overfull \hbox (779.05048pt too wide) in paragraph at lines 100--102
-\OT1/ptm/m/n/10 ===============================================================
-===============================================================================
-========================================= 
- []
-
-
-Overfull \hbox (793.50047pt too wide) in paragraph at lines 116--118
-[]\OT1/ptm/m/n/10 =============================================================
-===============================================================================
-===========================================
- []
-
-
-LaTeX Warning: Citation `mcculloch1943logical' on page 2 undefined on input lin
-e 119.
-
-
-LaTeX Warning: Citation `RefWorks:31' on page 2 undefined on input line 119.
-
-
-LaTeX Warning: Citation `RefWorks:32' on page 2 undefined on input line 119.
-
-
-LaTeX Warning: Citation `yegnanarayana2009artificial' on page 2 undefined on in
-put line 121.
-
-
-LaTeX Warning: Citation `RefWorks:31' on page 2 undefined on input line 121.
-
-
-LaTeX Warning: Citation `yegnanarayana2009artificial' on page 2 undefined on in
-put line 121.
-
-
-LaTeX Warning: Citation `zhang1998forecasting' on page 2 undefined on input lin
-e 123.
-
-
-LaTeX Warning: Citation `yegnanarayana2009artificial' on page 2 undefined on in
-put line 123.
-
-
-LaTeX Warning: Citation `dayhoff2001artificial' on page 2 undefined on input li
-ne 125.
-
-
-LaTeX Warning: Citation `RefWorks:1' on page 2 undefined on input line 125.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--129
-[]\OT1/ptm/m/n/10 ------------------------------------------------------------
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--129
-\OT1/ptm/m/n/10 ---------------------------------------------------------------
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--129
-\OT1/ptm/m/n/10 --------------------------------------------------------------
- []
-
-
-Overfull \hbox (790.33026pt too wide) in paragraph at lines 127--129
-\OT1/ptm/m/n/10 ===============================================================
-===============================================================================
-=========================================== 
- []
-
-
-Overfull \hbox (804.78026pt too wide) in paragraph at lines 134--136
-[]\OT1/ptm/m/n/10 =============================================================
-===============================================================================
-=============================================
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--136
-\OT1/ptm/m/n/10 ---------------------------------------------------------------
-------------
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--136
-\OT1/ptm/m/n/10 ---------------------------------------------------------------
-------------
- []
-
-
-LaTeX Warning: Citation `RefWorks:31' on page 2 undefined on input line 140.
-
-
-LaTeX Warning: Citation `gomez1999solving' on page 2 undefined on input line 14
-0.
-
-
-LaTeX Warning: Citation `RefWorks:31' on page 2 undefined on input line 140.
-
-
-LaTeX Warning: Citation `RefWorks:32' on page 2 undefined on input line 142.
-
-
-LaTeX Warning: Citation `gomez2001neuro' on page 2 undefined on input line 144.
-
-
-
-LaTeX Warning: Citation `RefWorks:1' on page 2 undefined on input line 144.
-
-
-LaTeX Warning: Citation `igel2003neuroevolution' on page 2 undefined on input l
-ine 146.
-
-
-LaTeX Warning: Citation `Miikkulainen:2010:ENN:1830761.1830902' on page 2 undef
-ined on input line 146.
-
-
-LaTeX Warning: Citation `RefWorks:31' on page 2 undefined on input line 148.
-
-[2]
-
-LaTeX Warning: Citation `RefWorks:31' on page 3 undefined on input line 150.
-
-
-Underfull \hbox (badness 2556) in paragraph at lines 150--153
-\OT1/ptm/m/n/10 the search space, de-cid-ing on an en-cod-ing method is
- []
-
-
-Underfull \hbox (badness 1895) in paragraph at lines 150--153
-\OT1/ptm/m/n/10 lit-er-a-ture re-view com-pares di-rect and in-di-rect en-cod-i
-ng,
- []
-
-
-Underfull \hbox (badness 2269) in paragraph at lines 150--153
-\OT1/ptm/m/n/10 which will be dis-cussed in depth at a later stage in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--153
-\OT1/ptm/m/n/10 the En-cod-ing Schemes. ---------------------------------------
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--153
-\OT1/ptm/m/n/10 ---------------------------------------------------------------
-------
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--153
-\OT1/ptm/m/n/10 ---------------------------------------------------------------
-----------
- []
-
-
-Overfull \hbox (767.77069pt too wide) in paragraph at lines 150--153
-\OT1/ptm/m/n/10 ===============================================================
-===============================================================================
-======================================= 
- []
-
-
-Overfull \hbox (336.66917pt too wide) in paragraph at lines 181--182
-[]\OT1/ptm/m/n/10 =============================================================
-========================================= 
- []
-
-
-Overfull \hbox (342.30907pt too wide) in paragraph at lines 192--194
-[]\OT1/ptm/m/n/10 =============================================================
-==========================================
- []
-
-
-Overfull \hbox (297.18993pt too wide) in paragraph at lines 197--198
-[]\OT1/ptm/m/n/10 =============================================================
-================================== 
- []
-
-[3] [4]
+[7] [8] [9]
 Package epstopdf Info: Source file: <Morphology.eps>
 (epstopdf)                    date: 2018-06-11 11:18:07
 (epstopdf)                    size: 127334 bytes
 (epstopdf)             Output file: <Morphology-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-06-11 11:18:07
 (epstopdf)                    size: 20236 bytes
-(epstopdf)             Command: <epstopdf --outfile=Morphology-eps-converted-to
-.pdf Morphology.eps>
-(epstopdf)             \includegraphics on input line 316.
+(epstopdf)             Command: <repstopdf --outfile=Morphology-eps-converted-t
+o.pdf Morphology.eps>
+(epstopdf)             \includegraphics on input line 808.
 Package epstopdf Info: Output file is already uptodate.
-<Morphology-eps-converted-to.pdf, id=18, 763.85374pt x 470.75874pt>
+
+<Morphology-eps-converted-to.pdf, id=40, 763.85374pt x 470.75874pt>
 File: Morphology-eps-converted-to.pdf Graphic file (type pdf)
+
 <use Morphology-eps-converted-to.pdf>
-Package pdftex.def Info: Morphology-eps-converted-to.pdf  used on input line 31
-6.
+Package pdftex.def Info: Morphology-eps-converted-to.pdf used on input line 808
+.
 (pdftex.def)             Requested size: 204.39857pt x 125.96443pt.
 Package epstopdf Info: Source file: <ANN_Config3.eps>
 (epstopdf)                    date: 2018-06-11 11:18:07
@@ -649,42 +361,34 @@ Package epstopdf Info: Source file: <ANN_Config3.eps>
 (epstopdf)             Output file: <ANN_Config3-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-06-11 11:18:07
 (epstopdf)                    size: 74570 bytes
-(epstopdf)             Command: <epstopdf --outfile=ANN_Config3-eps-converted-t
-o.pdf ANN_Config3.eps>
-(epstopdf)             \includegraphics on input line 321.
+(epstopdf)             Command: <repstopdf --outfile=ANN_Config3-eps-converted-
+to.pdf ANN_Config3.eps>
+(epstopdf)             \includegraphics on input line 813.
 Package epstopdf Info: Output file is already uptodate.
-<ANN_Config3-eps-converted-to.pdf, id=19, 958.58125pt x 327.2225pt>
+
+<ANN_Config3-eps-converted-to.pdf, id=41, 958.58125pt x 327.2225pt>
 File: ANN_Config3-eps-converted-to.pdf Graphic file (type pdf)
+
 <use ANN_Config3-eps-converted-to.pdf>
-Package pdftex.def Info: ANN_Config3-eps-converted-to.pdf  used on input line 3
-21.
+Package pdftex.def Info: ANN_Config3-eps-converted-to.pdf used on input line 81
+3.
 (pdftex.def)             Requested size: 314.46304pt x 107.34465pt.
-
-Underfull \hbox (badness 1796) in paragraph at lines 333--344
-[]\OT1/ptm/m/n/10 HyperNEAT [[]] is an ex-ten-sion of NEAT (\OT1/ptm/m/it/10 Ne
-uro-
- []
-
-[5]
-Underfull \hbox (badness 3635) in paragraph at lines 501--501
-[][][]\OT1/ptm/m/n/8 Source code for all ex-per-i-ments is on-line at: $https :
- / / github . com /
- []
-
 Package epstopdf Info: Source file: <TaskEnv.eps>
 (epstopdf)                    date: 2018-06-11 11:18:07
 (epstopdf)                    size: 164605 bytes
 (epstopdf)             Output file: <TaskEnv-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-06-11 11:18:07
 (epstopdf)                    size: 108392 bytes
-(epstopdf)             Command: <epstopdf --outfile=TaskEnv-eps-converted-to.pd
-f TaskEnv.eps>
-(epstopdf)             \includegraphics on input line 525.
+(epstopdf)             Command: <repstopdf --outfile=TaskEnv-eps-converted-to.p
+df TaskEnv.eps>
+(epstopdf)             \includegraphics on input line 848.
 Package epstopdf Info: Output file is already uptodate.
-<TaskEnv-eps-converted-to.pdf, id=26, 604.2575pt x 603.25375pt>
+
+<TaskEnv-eps-converted-to.pdf, id=42, 604.2575pt x 603.25375pt>
 File: TaskEnv-eps-converted-to.pdf Graphic file (type pdf)
+
 <use TaskEnv-eps-converted-to.pdf>
-Package pdftex.def Info: TaskEnv-eps-converted-to.pdf  used on input line 525.
+Package pdftex.def Info: TaskEnv-eps-converted-to.pdf used on input line 848.
 (pdftex.def)             Requested size: 209.63669pt x 209.28258pt.
 Package epstopdf Info: Source file: <ConstructionSchema.eps>
 (epstopdf)                    date: 2018-06-11 11:18:07
@@ -692,43 +396,39 @@ Package epstopdf Info: Source file: <ConstructionSchema.eps>
 (epstopdf)             Output file: <ConstructionSchema-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-06-11 11:18:07
 (epstopdf)                    size: 20760 bytes
-(epstopdf)             Command: <epstopdf --outfile=ConstructionSchema-eps-conv
-erted-to.pdf ConstructionSchema.eps>
-(epstopdf)             \includegraphics on input line 535.
+(epstopdf)             Command: <repstopdf --outfile=ConstructionSchema-eps-con
+verted-to.pdf ConstructionSchema.eps>
+(epstopdf)             \includegraphics on input line 858.
 Package epstopdf Info: Output file is already uptodate.
-<ConstructionSchema-eps-converted-to.pdf, id=27, 740.7675pt x 176.66pt>
+
+<ConstructionSchema-eps-converted-to.pdf, id=43, 740.7675pt x 176.66pt>
 File: ConstructionSchema-eps-converted-to.pdf Graphic file (type pdf)
+
 <use ConstructionSchema-eps-converted-to.pdf>
-Package pdftex.def Info: ConstructionSchema-eps-converted-to.pdf  used on input
- line 535.
+Package pdftex.def Info: ConstructionSchema-eps-converted-to.pdf used on input 
+line 858.
 (pdftex.def)             Requested size: 262.04987pt x 62.49504pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 535--538
+Overfull \hbox (9.0pt too wide) in paragraph at lines 858--861
  [][] 
  []
 
-[6 <./Morphology-eps-converted-to.pdf> <./ANN_Config3-eps-converted-to.pdf>]
-Underfull \hbox (badness 2326) in paragraph at lines 596--602
-[]\OT1/ptm/m/n/10 Parameter tun-ing ex-per-i-ments found that set-ting the
- []
-
-[7 <./TaskEnv-eps-converted-to.pdf> <./ConstructionSchema-eps-converted-to.pdf>
-]
 Package epstopdf Info: Source file: <Evo_BoxPlot_Level1.eps>
 (epstopdf)                    date: 2018-06-11 11:18:07
 (epstopdf)                    size: 167165 bytes
 (epstopdf)             Output file: <Evo_BoxPlot_Level1-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-06-11 11:18:07
 (epstopdf)                    size: 20178 bytes
-(epstopdf)             Command: <epstopdf --outfile=Evo_BoxPlot_Level1-eps-conv
-erted-to.pdf Evo_BoxPlot_Level1.eps>
-(epstopdf)             \includegraphics on input line 711.
+(epstopdf)             Command: <repstopdf --outfile=Evo_BoxPlot_Level1-eps-con
+verted-to.pdf Evo_BoxPlot_Level1.eps>
+(epstopdf)             \includegraphics on input line 927.
 Package epstopdf Info: Output file is already uptodate.
-<Evo_BoxPlot_Level1-eps-converted-to.pdf, id=52, 1143.27126pt x 482.80376pt>
+<Evo_BoxPlot_Level1-eps-converted-to.pdf, id=44, 1143.27126pt x 482.80376pt>
 File: Evo_BoxPlot_Level1-eps-converted-to.pdf Graphic file (type pdf)
+
 <use Evo_BoxPlot_Level1-eps-converted-to.pdf>
-Package pdftex.def Info: Evo_BoxPlot_Level1-eps-converted-to.pdf  used on input
- line 711.
+Package pdftex.def Info: Evo_BoxPlot_Level1-eps-converted-to.pdf used on input 
+line 927.
 (pdftex.def)             Requested size: 262.04987pt x 110.65944pt.
 Package epstopdf Info: Source file: <Level1_ReEval.eps>
 (epstopdf)                    date: 2018-06-11 11:18:07
@@ -736,18 +436,20 @@ Package epstopdf Info: Source file: <Level1_ReEval.eps>
 (epstopdf)             Output file: <Level1_ReEval-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-06-11 11:18:07
 (epstopdf)                    size: 21676 bytes
-(epstopdf)             Command: <epstopdf --outfile=Level1_ReEval-eps-converted
--to.pdf Level1_ReEval.eps>
-(epstopdf)             \includegraphics on input line 714.
+(epstopdf)             Command: <repstopdf --outfile=Level1_ReEval-eps-converte
+d-to.pdf Level1_ReEval.eps>
+(epstopdf)             \includegraphics on input line 930.
 Package epstopdf Info: Output file is already uptodate.
-<Level1_ReEval-eps-converted-to.pdf, id=53, 1151.30125pt x 488.82625pt>
+
+<Level1_ReEval-eps-converted-to.pdf, id=45, 1151.30125pt x 488.82625pt>
 File: Level1_ReEval-eps-converted-to.pdf Graphic file (type pdf)
+
 <use Level1_ReEval-eps-converted-to.pdf>
-Package pdftex.def Info: Level1_ReEval-eps-converted-to.pdf  used on input line
- 714.
+Package pdftex.def Info: Level1_ReEval-eps-converted-to.pdf used on input line 
+930.
 (pdftex.def)             Requested size: 262.04987pt x 111.26408pt.
 
-Overfull \hbox (2.29994pt too wide) in paragraph at lines 710--722
+Overfull \hbox (2.29994pt too wide) in paragraph at lines 926--938
 []$[]$ $[]$ 
  []
 
@@ -757,15 +459,16 @@ Package epstopdf Info: Source file: <Evo_BoxPlot_Level2.eps>
 (epstopdf)             Output file: <Evo_BoxPlot_Level2-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-06-11 11:18:07
 (epstopdf)                    size: 19766 bytes
-(epstopdf)             Command: <epstopdf --outfile=Evo_BoxPlot_Level2-eps-conv
-erted-to.pdf Evo_BoxPlot_Level2.eps>
-(epstopdf)             \includegraphics on input line 727.
+(epstopdf)             Command: <repstopdf --outfile=Evo_BoxPlot_Level2-eps-con
+verted-to.pdf Evo_BoxPlot_Level2.eps>
+(epstopdf)             \includegraphics on input line 943.
 Package epstopdf Info: Output file is already uptodate.
-<Evo_BoxPlot_Level2-eps-converted-to.pdf, id=54, 1152.305pt x 491.8375pt>
+<Evo_BoxPlot_Level2-eps-converted-to.pdf, id=46, 1152.305pt x 491.8375pt>
 File: Evo_BoxPlot_Level2-eps-converted-to.pdf Graphic file (type pdf)
+
 <use Evo_BoxPlot_Level2-eps-converted-to.pdf>
-Package pdftex.def Info: Evo_BoxPlot_Level2-eps-converted-to.pdf  used on input
- line 727.
+Package pdftex.def Info: Evo_BoxPlot_Level2-eps-converted-to.pdf used on input 
+line 943.
 (pdftex.def)             Requested size: 262.04987pt x 111.85193pt.
 Package epstopdf Info: Source file: <Level2_ReEval.eps>
 (epstopdf)                    date: 2018-06-11 11:18:07
@@ -773,18 +476,20 @@ Package epstopdf Info: Source file: <Level2_ReEval.eps>
 (epstopdf)             Output file: <Level2_ReEval-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-06-11 11:18:07
 (epstopdf)                    size: 20226 bytes
-(epstopdf)             Command: <epstopdf --outfile=Level2_ReEval-eps-converted
--to.pdf Level2_ReEval.eps>
-(epstopdf)             \includegraphics on input line 730.
+(epstopdf)             Command: <repstopdf --outfile=Level2_ReEval-eps-converte
+d-to.pdf Level2_ReEval.eps>
+(epstopdf)             \includegraphics on input line 946.
 Package epstopdf Info: Output file is already uptodate.
-<Level2_ReEval-eps-converted-to.pdf, id=55, 1155.31625pt x 493.845pt>
+
+<Level2_ReEval-eps-converted-to.pdf, id=47, 1155.31625pt x 493.845pt>
 File: Level2_ReEval-eps-converted-to.pdf Graphic file (type pdf)
+
 <use Level2_ReEval-eps-converted-to.pdf>
-Package pdftex.def Info: Level2_ReEval-eps-converted-to.pdf  used on input line
- 730.
+Package pdftex.def Info: Level2_ReEval-eps-converted-to.pdf used on input line 
+946.
 (pdftex.def)             Requested size: 262.04987pt x 112.00703pt.
 
-Overfull \hbox (2.29994pt too wide) in paragraph at lines 726--738
+Overfull \hbox (2.29994pt too wide) in paragraph at lines 942--954
 []$[]$ $[]$ 
  []
 
@@ -794,15 +499,16 @@ Package epstopdf Info: Source file: <Evo_BoxPlot_Level3.eps>
 (epstopdf)             Output file: <Evo_BoxPlot_Level3-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-06-11 11:18:07
 (epstopdf)                    size: 21106 bytes
-(epstopdf)             Command: <epstopdf --outfile=Evo_BoxPlot_Level3-eps-conv
-erted-to.pdf Evo_BoxPlot_Level3.eps>
-(epstopdf)             \includegraphics on input line 743.
+(epstopdf)             Command: <repstopdf --outfile=Evo_BoxPlot_Level3-eps-con
+verted-to.pdf Evo_BoxPlot_Level3.eps>
+(epstopdf)             \includegraphics on input line 959.
 Package epstopdf Info: Output file is already uptodate.
-<Evo_BoxPlot_Level3-eps-converted-to.pdf, id=56, 1151.30125pt x 494.84875pt>
+<Evo_BoxPlot_Level3-eps-converted-to.pdf, id=48, 1151.30125pt x 494.84875pt>
 File: Evo_BoxPlot_Level3-eps-converted-to.pdf Graphic file (type pdf)
+
 <use Evo_BoxPlot_Level3-eps-converted-to.pdf>
-Package pdftex.def Info: Evo_BoxPlot_Level3-eps-converted-to.pdf  used on input
- line 743.
+Package pdftex.def Info: Evo_BoxPlot_Level3-eps-converted-to.pdf used on input 
+line 959.
 (pdftex.def)             Requested size: 262.04987pt x 112.63489pt.
 Package epstopdf Info: Source file: <Level3_ReEval.eps>
 (epstopdf)                    date: 2018-06-11 11:18:07
@@ -810,25 +516,54 @@ Package epstopdf Info: Source file: <Level3_ReEval.eps>
 (epstopdf)             Output file: <Level3_ReEval-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-06-11 11:18:07
 (epstopdf)                    size: 22323 bytes
-(epstopdf)             Command: <epstopdf --outfile=Level3_ReEval-eps-converted
--to.pdf Level3_ReEval.eps>
-(epstopdf)             \includegraphics on input line 746.
+(epstopdf)             Command: <repstopdf --outfile=Level3_ReEval-eps-converte
+d-to.pdf Level3_ReEval.eps>
+(epstopdf)             \includegraphics on input line 962.
 Package epstopdf Info: Output file is already uptodate.
-<Level3_ReEval-eps-converted-to.pdf, id=57, 1151.30125pt x 490.83376pt>
+
+<Level3_ReEval-eps-converted-to.pdf, id=49, 1151.30125pt x 490.83376pt>
 File: Level3_ReEval-eps-converted-to.pdf Graphic file (type pdf)
+
 <use Level3_ReEval-eps-converted-to.pdf>
-Package pdftex.def Info: Level3_ReEval-eps-converted-to.pdf  used on input line
- 746.
+Package pdftex.def Info: Level3_ReEval-eps-converted-to.pdf used on input line 
+962.
 (pdftex.def)             Requested size: 262.04987pt x 111.72102pt.
 
-Overfull \hbox (2.29994pt too wide) in paragraph at lines 742--754
+Overfull \hbox (2.29994pt too wide) in paragraph at lines 958--970
 []$[]$ $[]$ 
  []
 
-[8] [9 <./Evo_BoxPlot_Level1-eps-converted-to.pdf> <./Level1_ReEval-eps-convert
-ed-to.pdf> <./Evo_BoxPlot_Level2-eps-converted-to.pdf> <./Level2_ReEval-eps-con
-verted-to.pdf> <./Evo_BoxPlot_Level3-eps-converted-to.pdf> <./Level3_ReEval-eps
--converted-to.pdf>] [10] (SSCI2017-RPGN-FINAL.bbl [11])
+[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `sec:embodiment' on page 11 undefined on input line 11
+46.
+
+
+Underfull \vbox (badness 1062) has occurred while \output is active []
+
+ [11 <./Morphology-eps-converted-to.pdf> <./ANN_Config3-eps-converted-to.pdf> <
+./TaskEnv-eps-converted-to.pdf> <./ConstructionSchema-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./Evo_BoxPlot_Level1-eps-converted-to.pdf> <./Level1_ReEval-eps-converted
+-to.pdf> <./Evo_BoxPlot_Level2-eps-converted-to.pdf> <./Level2_ReEval-eps-conve
+rted-to.pdf> <./Evo_BoxPlot_Level3-eps-converted-to.pdf> <./Level3_ReEval-eps-c
+onverted-to.pdf>] (./SSCI2017-RPGN-FINAL.bbl
+Missing character: There is no – in font ptmr7t!
+
+Underfull \hbox (badness 1681) in paragraph at lines 59--63
+[]\OT1/ptm/m/n/8 M. Hausknecht, P. Khan-del-wal, R. Mi-ikku-lainen, and P. Ston
+e,
+ []
+
+Missing character: There is no – in font ptmr7t!
+[13]
+Missing character: There is no – in font ptmr7t!
+Missing character: There is no – in font ptmr7t!
+ [14])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -840,41 +575,38 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[12
+[15
 
-] (SSCI2017-RPGN-FINAL.aux)
+] (./SSCI2017-RPGN-FINAL.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3411 strings out of 492970
- 52663 string characters out of 3125262
- 135591 words of memory out of 3000000
- 7230 multiletter control sequences out of 15000+200000
- 43784 words of font info for 81 fonts, out of 3000000 for 9000
+ 3499 strings out of 493013
+ 51885 string characters out of 6135683
+ 158551 words of memory out of 5000000
+ 6987 multiletter control sequences out of 15000+600000
+ 43784 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,25p,837b,277s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/pandries/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.
-enc}<C:/Users/pandries/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb><C:/Users/pandries/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/pandries/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/pandries/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/pand
-ries/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb>
-<C:/Users/pandries/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr7.pfb><C:/Users/pandries/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr8.pfb><C:/Users/pandries/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/pandries/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/pandries/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/pan
-dries/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/U
-sers/pandries/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pf
-b><C:/Users/pandries/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on SSCI2017-RPGN-FINAL.pdf (12 pages, 530612 bytes).
+ 39i,10n,25p,834b,638s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmri8a.pfb>
+Output written on SSCI2017-RPGN-FINAL.pdf (15 pages, 553165 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
+ 146 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
